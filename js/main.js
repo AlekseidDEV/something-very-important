@@ -15,11 +15,7 @@ $(document).ready (function() {
      var tool = new Tool ();
         var c = Shape.Circle (200, 200, 150);
         c.fillColor = 'green';
-        var text = new PointText (200, 200); 
-        text.justification = 'center'; 
-        text.fillColor = 'black'
-        text.fontSize = 50;
-        text.content = 'hello world';
+        
 
      tool.onMouseDown = function(event) {
         var c = Shape.Circle(event.point, 5);
